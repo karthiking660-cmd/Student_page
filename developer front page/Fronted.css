@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    filter: brightness(1.2);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    line-height: 40px;
+}
+
+
+.box .hi {
+    position: absolute;
+    top: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.hi .s2 {
+    font-size: 20px;
+
+
+}
+
+.hi span {
+    text-transform: none;
+}
+
+.down {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 150px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+    padding: 44px;
+    transition: all 0.5s ease 0s;
+}
+
+.down span {
+    font-size: 70px;
+}
+
+.boxes {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.boxes .divs {
+    width: 250px;
+    height: 400px;
+    font-size: 13px;
+    transition: all 0.3s ease 0s;
+    border-radius: 12px;
+
+    box-shadow: 4px 4px 4px 1px lightblue;
+    /* box-shadow: 4px 4px 4px 1px powderblue; */
+    /* box-shadow: 4px 4px 4px 1px lightpink; */
+
+
+
+}
+
+.boxes .divs h3 {
+    text-align: left;
+    padding: 10px;
+}
+
+.boxes .divs p {
+    padding: 0px 10px;
+}
+
+.boxes img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.contact {
+    height: 40vh;
+    width: 50vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #558B2F;
+    padding: 10px 15px 10px 20px;
+    color: white;
+    display: inline-block;
+
+
+}
+
+.about {
+    height: 40vh;
+    width: 50vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+
+
+}
+
+.grid {
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+}
+
+.contact h1 {
+    margin: 10px 20px 0px 20px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.contact p {
+    padding: 10px 20px 0px 20px;
+}
+
+.about h1 {
+    margin: 24px 19px -5px 38px;
+    font-weight: 400;
+    font-size: 43px;
+}
+
+.about p {
+    padding: 10px 20px 0px 38px;
+}
+
+.footter {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s ease 0s;
+    font-size: 25px;
+
+}
+
+
+.footter:hover {
+    color: red;
+
+}
+
+.divs:hover {
+    scale: 1.03;
+
+}
+
+.down:hover {
+    color: rgb(178, 111, 255);
+
+}
